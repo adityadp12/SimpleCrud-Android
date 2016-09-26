@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SimpleCRUD
 Aplikasi android untuk membaca, menambah, meng-update, dan menghapus data yang tersimpan di database server
 
@@ -10,3 +11,7 @@ android yg di develop
 jika ada pertanyaan silahkan mention @adityalojes
 
 
+=======
+# SimpleCrud-Android
+Simple CRUD Android with JSON mysql
+>>>>>>> f97765a27985a8bcbc4a9977c7448c9980d7b16e

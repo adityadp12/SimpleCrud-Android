@@ -214,7 +214,5 @@ public class UpdateDeleteActivity extends ActionBarActivity {
 
         }
     }
-
-	
 }
 

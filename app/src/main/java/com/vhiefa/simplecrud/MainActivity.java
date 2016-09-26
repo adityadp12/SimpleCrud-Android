@@ -27,7 +27,6 @@ public class MainActivity extends ActionBarActivity {
     ArrayList<Mahasiswa> daftar_mhs = new ArrayList<Mahasiswa>();
     JSONArray daftarMhs = null;
     String url_read_mhs = "http://apicrud.myditya.my.id/simple_crud/read_mhs.php";
-    //String url_read_mhs = "https://api.instagram.com/v1/users/self/media/recent/?access_token=448412106.8b9bb06.71779588df1d4d7f938c4e01756e7951";
     // JSON Node names, ini harus sesuai yang di API
     public static final String TAG_SUCCESS = "success";
     public static final String TAG_MHS = "mahasiswa";
@@ -80,6 +79,7 @@ public class MainActivity extends ActionBarActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
+
 
         if (id == R.id.action_add) {
             Intent i = new Intent(MainActivity.this, CreateActivity.class);
